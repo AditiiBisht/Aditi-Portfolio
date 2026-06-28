@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Aditi-Portfolio/static/css/main.d8d8aeb6.css",
-    "main.js": "/Aditi-Portfolio/static/js/main.3344ab38.js",
+    "main.css": "/Aditi-Portfolio/static/css/main.73f541ae.css",
+    "main.js": "/Aditi-Portfolio/static/js/main.a676c281.js",
     "index.html": "/Aditi-Portfolio/index.html",
-    "main.d8d8aeb6.css.map": "/Aditi-Portfolio/static/css/main.d8d8aeb6.css.map",
-    "main.3344ab38.js.map": "/Aditi-Portfolio/static/js/main.3344ab38.js.map"
+    "main.73f541ae.css.map": "/Aditi-Portfolio/static/css/main.73f541ae.css.map",
+    "main.a676c281.js.map": "/Aditi-Portfolio/static/js/main.a676c281.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8d8aeb6.css",
-    "static/js/main.3344ab38.js"
+    "static/css/main.73f541ae.css",
+    "static/js/main.a676c281.js"
   ]
 }
