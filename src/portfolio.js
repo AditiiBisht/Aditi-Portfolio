@@ -137,12 +137,88 @@ export const bigProjects = [
   },
 ];
 
+// // export const achievementSection = {
+// //   display: false, // Set to true and add achievements when available
+// //   title: "Achievements",
+// //   subtitle: "Certifications, Awards & Recognitions",
+// //   achievementsCards: [],
+// };
+
 export const achievementSection = {
-  display: false, // Set to true and add achievements when available
-  title: "Achievements",
-  subtitle: "Certifications, Awards & Recognitions",
-  achievementsCards: [],
+  display: true,
+  title: "Licenses & Certifications",
+  subtitle:
+    "Professional certifications, virtual experience programs, and technical credentials that strengthen my software engineering, AI, and cybersecurity expertise.",
+
+  achievementsCards: [
+    {
+      title: "Datacom Software Development Virtual Experience Program",
+      subtitle: "Forage • Software Development",
+      image: "datacom.png",
+      imageAlt: "Datacom",
+      footerLink: [
+        {
+          name: "View Credential",
+          url: "https://www.theforage.com/completion-certificates/gCW7Xki5Y3vNpBmnn/L3NcyCoAjLno9d3T9_gCW7Xki5Y3vNpBmnn_jWGXRdnkCHMJpTgea_1781262194947_completion_certificate.pdf",
+        },
+      ],
+    },
+
+    {
+      title: "Deloitte Australia – Cyber Job Simulation",
+      subtitle: "Forage • Cybersecurity",
+      image: "deloitte.png",
+      imageAlt: "Deloitte",
+      footerLink: [
+        {
+          name: "View Credential",
+          url: "https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_jWGXRdnkCHMJpTgea_1781254657629_completion_certificate.pdf",
+        },
+      ],
+    },
+
+    {
+      title: "Deloitte Australia – Data Analytics Job Simulation",
+      subtitle: "Forage • Data Analytics",
+      image: "deloitte.png",
+      imageAlt: "Deloitte",
+      footerLink: [
+        {
+          name: "View Credential",
+          url: "https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_jWGXRdnkCHMJpTgea_1781254657629_completion_certificate.pdf",
+        },
+      ],
+    },
+
+    {
+      title: "Tata – GenAI Powered Data Analytics Job Simulation",
+      subtitle: "Forage • Generative AI",
+      image: "tata.png",
+      imageAlt: "Tata",
+      footerLink: [
+        {
+          name: "View Credential",
+          url: "https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_jWGXRdnkCHMJpTgea_1782065396525_completion_certificate.pdf",
+        },
+      ],
+    },
+
+
+    {
+      title: "Introduction to Programming Using Java",
+      subtitle: "Udemy",
+      image: "udemy.png",
+      imageAlt: "Udemy",
+      footerLink: [
+        {
+          name: "View Credential",
+          url: "https://drive.google.com/file/d/10iD7iMHUlU32FG-sEEZKkRRcAJKQmJUb/view?usp=drive_link",
+        },
+      ],
+    },
+  ],
 };
+
 
 export const contactInfo = {
   title: "Let's Connect",
