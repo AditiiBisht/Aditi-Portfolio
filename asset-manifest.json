@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/aditi-portfolio/static/css/main.d8d8aeb6.css",
+    "main.js": "/aditi-portfolio/static/js/main.3344ab38.js",
+    "index.html": "/aditi-portfolio/index.html",
+    "main.d8d8aeb6.css.map": "/aditi-portfolio/static/css/main.d8d8aeb6.css.map",
+    "main.3344ab38.js.map": "/aditi-portfolio/static/js/main.3344ab38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8d8aeb6.css",
+    "static/js/main.3344ab38.js"
+  ]
+}
