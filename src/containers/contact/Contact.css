@@ -1,0 +1,58 @@
+.contact-section {
+  background: linear-gradient(180deg, transparent, rgba(124,58,237,0.04));
+}
+
+.contact-inner {
+  max-width: 680px;
+}
+
+.contact-email-btn {
+  margin: 2.2rem 0;
+}
+
+.contact-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--white);
+  transition: border-color 0.2s, transform 0.2s, background 0.2s;
+  min-width: 190px;
+}
+
+.contact-card:hover {
+  border-color: var(--violet-light);
+  background: rgba(124,58,237,0.08);
+  transform: translateY(-3px);
+}
+
+.cc-icon {
+  font-size: 1.5rem;
+  color: var(--violet-light);
+  flex-shrink: 0;
+}
+
+.cc-label {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-bottom: 0.15rem;
+}
+
+.cc-value {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+@media (max-width: 640px) {
+  .contact-links { flex-direction: column; }
+  .contact-card { min-width: unset; }
+}
