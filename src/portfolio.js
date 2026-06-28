@@ -167,7 +167,7 @@ export const achievementSection = {
     {
       title: "Deloitte Australia – Cyber Job Simulation",
       subtitle: "Forage • Cybersecurity",
-      image: "deloitte.png",
+      image: "Deloitte.png",
       imageAlt: "Deloitte",
       footerLink: [
         {
@@ -176,11 +176,11 @@ export const achievementSection = {
         },
       ],
     },
-
+    
     {
       title: "Deloitte Australia – Data Analytics Job Simulation",
       subtitle: "Forage • Data Analytics",
-      image: "deloitte.png",
+      image: "Deloitte.png",
       imageAlt: "Deloitte",
       footerLink: [
         {
@@ -193,7 +193,7 @@ export const achievementSection = {
     {
       title: "Tata – GenAI Powered Data Analytics Job Simulation",
       subtitle: "Forage • Generative AI",
-      image: "tata.png",
+      image: "tata.jpeg",
       imageAlt: "Tata",
       footerLink: [
         {

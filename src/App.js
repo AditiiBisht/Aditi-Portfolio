@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Greeting from "./containers/greeting/Greeting";
 import Skills from "./containers/skills/Skills";
 import Education from "./containers/education/Education";
+import Certifications from "./containers/certifications/Certifications";
 import Projects from "./containers/projects/Projects";
 import Contact from "./containers/contact/Contact";
 import Footer from "./components/Footer/Footer";
@@ -19,6 +20,7 @@ function App() {
         <Greeting />
         <Skills />
         <Education />
+        <Certifications />
         <Projects />
         <Contact />
         <Footer />
