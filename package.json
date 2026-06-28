@@ -1,3 +1,4 @@
+
 {
   "name": "aditi-portfolio",
   "version": "0.1.0",
@@ -45,7 +46,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://AditiiBisht.github.io/aditi-portfolio",
+  "homepage": "https://aditiibisht.github.io/Aditi-Portfolio",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
