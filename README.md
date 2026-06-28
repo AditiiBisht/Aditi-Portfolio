@@ -4,8 +4,6 @@ A modern, responsive portfolio website showcasing my skills, projects, certifica
 
 ## 🚀 Live Demo
 
-## 🚀 Live Demo
-
 🌐 **Website:** [https://aditiibisht.github.io/Aditi-Portfolio/](https://aditiibisht.github.io/Aditi-Portfolio/)
 ---
 
