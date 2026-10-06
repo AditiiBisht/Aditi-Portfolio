@@ -1,0 +1,85 @@
+.edu-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.edu-card {
+  padding: 2rem 2.2rem;
+}
+
+.edu-top {
+  display: flex;
+  gap: 1.3rem;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.edu-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.edu-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.edu-school {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.edu-sub {
+  color: var(--violet-light);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.edu-duration {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--amber);
+}
+
+.edu-desc {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-bottom: 1.2rem;
+}
+
+.edu-bullets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* ─── Learning strip ─── */
+.learning-strip {
+  background: linear-gradient(135deg, rgba(124,58,237,0.08), rgba(245,158,11,0.05));
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.2rem 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.learning-label {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--amber);
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+
+.learning-pills {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}

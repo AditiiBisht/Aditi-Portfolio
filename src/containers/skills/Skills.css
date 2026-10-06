@@ -1,0 +1,89 @@
+.skills-section {
+  background: linear-gradient(180deg, transparent, rgba(30,41,59,0.25), transparent);
+}
+
+.skills-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+/* ─── Points ─── */
+.skills-sub-title {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.01em;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.skill-point {
+  color: var(--muted);
+  font-size: 0.97rem;
+  padding: 0.9rem 1.1rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  border-left: 3px solid var(--violet);
+  line-height: 1.5;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.skill-point:hover {
+  border-left-color: var(--amber);
+  color: var(--white);
+}
+
+/* ─── Chips ─── */
+.skills-chips {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 0.9rem;
+}
+
+.skill-chip {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.2rem 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: default;
+  transition: border-color 0.22s, transform 0.22s, box-shadow 0.22s;
+}
+
+.skill-chip:hover {
+  border-color: var(--violet-light);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 35px rgba(124,58,237,0.2);
+}
+
+.skill-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-chip-name {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--muted);
+  text-align: center;
+}
+
+.skill-chip:hover .skill-chip-name {
+  color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .skills-layout { grid-template-columns: 1fr; gap: 2.5rem; }
+}

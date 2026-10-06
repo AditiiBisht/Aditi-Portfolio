@@ -1,0 +1,126 @@
+.contact-section {
+  background: linear-gradient(180deg, transparent, rgba(124,58,237,0.04));
+}
+
+.contact-inner {
+  max-width: 680px;
+}
+
+.contact-email-btn {
+  margin: 2.2rem 0;
+}
+
+.contact-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--white);
+  transition: border-color 0.2s, transform 0.2s, background 0.2s;
+  min-width: 190px;
+}
+
+.contact-card:hover {
+  border-color: var(--violet-light);
+  background: rgba(124,58,237,0.08);
+  transform: translateY(-3px);
+}
+
+.cc-icon {
+  font-size: 1.5rem;
+  color: var(--violet-light);
+  flex-shrink: 0;
+}
+
+.cc-label {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-bottom: 0.15rem;
+}
+
+.cc-value {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+@media (max-width: 640px) {
+  .contact-links { flex-direction: column; }
+  .contact-card { min-width: unset; }
+}
+
+/* ===========================
+   Contact Layout
+=========================== */
+
+.contact-inner{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:70px;
+  max-width:1200px;
+  margin:auto;
+}
+
+.contact-left{
+  flex:1;
+}
+
+.contact-right{
+  flex:0 0 350px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.contact-photo{
+  width:320px;
+  height:320px;
+  object-fit:cover;
+  border-radius:50%;
+  border:6px solid #7c3aed;
+  box-shadow:
+      0 0 25px rgba(124,58,237,.35),
+      0 0 60px rgba(124,58,237,.25);
+  transition:.35s;
+}
+
+.contact-photo:hover{
+  transform:scale(1.04);
+  box-shadow:
+      0 0 40px rgba(124,58,237,.45),
+      0 0 80px rgba(124,58,237,.35);
+}
+
+@media(max-width:900px){
+
+  .contact-inner{
+      flex-direction:column-reverse;
+      text-align:center;
+      gap:45px;
+  }
+
+  .contact-left{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+  }
+
+  .contact-links{
+      justify-content:center;
+  }
+
+  .contact-photo{
+      width:250px;
+      height:250px;
+  }
+
+}
