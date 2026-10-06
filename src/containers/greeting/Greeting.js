@@ -23,6 +23,7 @@ function Terminal() {
 
   useEffect(() => {
     let i = 0;
+
     const tick = () => {
       if (i < TERMINAL_LINES.length) {
         const idx = i;
@@ -31,7 +32,9 @@ function Terminal() {
         setTimeout(tick, idx < 2 ? 200 : 110);
       }
     };
+
     const t = setTimeout(tick, 700);
+
     return () => clearTimeout(t);
   }, []);
 
@@ -43,6 +46,7 @@ function Terminal() {
         <span className="dot green" />
         <span className="terminal-title">aditi@portfolio ~</span>
       </div>
+
       <div className="terminal-body">
         {lines.map((l, i) => (
           <div key={i} className={`t-line ${l.cls}`}>
@@ -63,7 +67,9 @@ export default function Greeting() {
       ([e]) => e.isIntersecting && e.target.classList.add("visible"),
       { threshold: 0.15 }
     );
+
     if (ref.current) obs.observe(ref.current);
+
     return () => obs.disconnect();
   }, []);
 
@@ -73,12 +79,16 @@ export default function Greeting() {
         <div className="greeting-grid fade-up" ref={ref}>
           {/* Left */}
           <div className="greeting-left">
-            <span className="hero-eyebrow">✦ Available for opportunities</span>
-           <h1 className="hero-name">
-  {greeting.title}
-  <br />
-  <span className="gradient-text">Software Engineer</span>
-</h1>
+            <span className="hero-eyebrow">
+              ✦ Available for opportunities
+            </span>
+
+            <h1 className="hero-name">
+              {greeting.title}
+              <br />
+              <span className="gradient-text">Software Engineer</span>
+            </h1>
+
             <p className="hero-sub">{greeting.subTitle}</p>
 
             <div className="hero-cta">
@@ -92,19 +102,41 @@ export default function Greeting() {
                   Download Resume
                 </a>
               )}
-              <a href={`mailto:${socialMediaLinks.gmail}`} className="btn-outline">
+
+              <a
+                href={`mailto:${socialMediaLinks.gmail}`}
+                className="btn-outline"
+              >
                 Get In Touch
               </a>
             </div>
 
             <div className="social-row">
-              <a href={socialMediaLinks.github} target="_blank" rel="noreferrer" className="social-icon" aria-label="GitHub">
+              <a
+                href={socialMediaLinks.github}
+                target="_blank"
+                rel="noreferrer"
+                className="social-icon"
+                aria-label="GitHub"
+              >
                 <FaGithub />
               </a>
-              <a href={socialMediaLinks.linkedin} target="_blank" rel="noreferrer" className="social-icon" aria-label="LinkedIn">
+
+              <a
+                href={socialMediaLinks.linkedin}
+                target="_blank"
+                rel="noreferrer"
+                className="social-icon"
+                aria-label="LinkedIn"
+              >
                 <FaLinkedin />
               </a>
-              <a href={`mailto:${socialMediaLinks.gmail}`} className="social-icon" aria-label="Email">
+
+              <a
+                href={`mailto:${socialMediaLinks.gmail}`}
+                className="social-icon"
+                aria-label="Email"
+              >
                 <FaEnvelope />
               </a>
             </div>
